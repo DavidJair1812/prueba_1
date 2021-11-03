@@ -19,3 +19,5 @@ git push "con este comando se indica que ya se subira los cambios que estan en e
 	  un mensaje de que requieres un token en lugar de la contraseña, deberas solicitar
 	  tu token al administrador del repocitorio"
 
+
+git checkout -b "es para entrar a una rama creada desde git"
