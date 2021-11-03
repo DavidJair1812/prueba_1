@@ -1,2 +1,21 @@
 Hola Mundo!!
 Como estas??
+
+git status  "para ver los cambios que se realizaron dentro de la carpeta"
+
+git add {ejemplo.txt} "nombre del archivo que se quiera subir"
+
+git add {.} "al poner el punto se agregaran todos los archivos modificados que se tengan"
+
+git diff "muesta los cambios que tiene cada archivo que se va a subir en el commit"
+ 
+git commit "para preparar y agrupar los cambios que se realizaron para subirlos posteriormente"
+
+git commit -m {"mensaje"} "el menos m indica que se agregara un mensaje al subir el archivo
+			    para llevar un control "
+
+git push "con este comando se indica que ya se subira los cambios que estan en el commit,
+	  Te solicitara un usuario y contraseña que este registrado en GIT, si te muestra 
+	  un mensaje de que requieres un token en lugar de la contraseña, deberas solicitar
+	  tu token al administrador del repocitorio"
+
